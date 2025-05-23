@@ -1,0 +1,28 @@
+.dashboard {
+    background-color: #000;
+    color: white;
+    min-height: 100vh;
+    padding: 2rem;
+    margin: -2rem;  /* This negates the padding from main-content */
+    animation: fadeIn 0.3s ease-in;
+}
+
+.dashboard h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.dashboard p {
+    color: #ccc;
+    font-size: 1.1rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} 
